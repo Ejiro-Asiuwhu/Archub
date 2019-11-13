@@ -103,7 +103,7 @@ div a.link-light {
 }
 
 header {
-    background: url(../assets/img/7.jpg);
+    background: url("https://images.unsplash.com/photo-1489171078254-c3365d6e359f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=60");
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -478,12 +478,13 @@ footer small {
 }
 
 @media all and (max-width: 743px) {
-   .nav-item-3 {
-       margin: 0;
-   }
-   .nav-item-2 {
-       margin: 0;
-   }
+    .nav-item-3 {
+        margin: 0;
+    }
+
+    .nav-item-2 {
+        margin: 0;
+    }
 }
 
 @media all and (max-width: 768px) {
@@ -498,9 +499,9 @@ footer small {
 }
 
 @media all and (max-width: 498px) {
-   .nav__container {
-       font-size: 1.2rem;
-   }
+    .nav__container {
+        font-size: 1.2rem;
+    }
 }
 
 
