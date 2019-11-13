@@ -103,8 +103,9 @@ div a.link-light {
 }
 
 header {
-    background: url("https://images.unsplash.com/photo-1489171078254-c3365d6e359f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=60");
+    background: url("https://images.pexels.com/photos/263189/pexels-photo-263189.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1500");
     background-size: cover;
+    background-position: center;
     height: 100vh;
     width: 100vw;
 }
