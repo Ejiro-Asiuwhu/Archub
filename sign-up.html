@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Account &verbar; Arch Hub</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Khula:400,600|Montserrat:700,900|Nunito:400,600,800&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/sign-in.css">
+</head>
+
+<body>
+    <section class="signup__container">
+
+        <!-- SIGN UP HEADING -->
+        <div class="signup-heading__container">
+            <div class="signup-logo__container">
+                <img src="./assets/img/logo.png" alt="signup-logo" class="signup__logo">
+            </div>
+            <div class="signup-text__container">
+                <h3>Create an Account</h3>
+                <p class="text-muted">For the love of Interior Design.</p>
+            </div>
+        </div>
+        <!-- SIGN UP FORM  -->
+        <form action="/myaction" method="post" class="signup-form__container">
+            <!-- NAME -->
+            <div class="signup-name_container form-group">
+                <label for="fullname" class="signup-form__label">Name</label>
+                <input type="text" name="fullname" id="fullname" placeholder="Full Name"
+                    class="signup-form__input text-muted">
+                <span class="input-group-svg">
+                    <svg class="icon icon-user">
+                        <use xlink:href="./assets/svg/sprite.svg#icon-user"></use>
+                    </svg>
+                </span>
+            </div>
+            <!-- EMAIL -->
+            <div class="signup-email__container form-group">
+                <label for="email" class="signup-form__label">Email Address</label>
+                <input type="email" name="email" id="email" placeholder="yourname@example.com" class="text-muted">
+                <span class="input-group-svg">
+                    <svg class="icon icon-mail">
+                        <use xlink:href="./assets/svg/sprite.svg#icon-mail"></use>
+                    </svg>
+                </span>
+            </div>
+            <!-- PASSWORD -->
+            <div class="password__container form-group">
+                <div class="signup-password__container">
+                    <label for="password" class="signup-form__label">Password</label>
+                    <input type="password" name="password" id="password" placeholder="********" minlength="8"
+                        class="text-muted">
+                    <span class="input-group-svg__password">
+                        <svg class="icon icon-eye">
+                            <use xlink:href="./assets/svg/sprite.svg#icon-eye"></use>
+                        </svg>
+                    </span>
+                </div>
+                <div class="signup-confpassword__container">
+                    <label for="password" class="signup-form__label">Confirm Password</label>
+                    <input type="password" name="password" id="password" placeholder="********" minlength="8"
+                        class="text-muted">
+                    <span class="input-group-svg__password">
+                        <svg class="icon icon-eye">
+                            <use xlink:href="./assets/svg/sprite.svg#icon-eye"></use>
+                        </svg>
+                    </span>
+                </div>
+            </div>
+            <!-- POLICY && CONDITIONS -->
+            <div class="terms-and-policy__contaner">
+                <div class="terms-item">
+                    <input type="checkbox" name="terms" id="terms">
+                    <label for="terms"> <span class="text-muted">I agree to</span> <a href="#" class="custom-bold">terms
+                            and conditions</a> </label>
+                </div>
+                <div class="policy-item">
+                    <input type="checkbox" name="privacy" id="privacy">
+                    <label for="privacy"><span class="text-muted">I agree to</span> <a href="#"
+                            class="custom-bold">privacy policy</span> </label>
+                </div>
+            </div>
+
+            <!-- SUBMIT BUTTON -->
+            <div class="signup-button__container">
+                <button type="submit">Create my account</button>
+            </div>
+            <div class="login-link__container">
+                <a class="no-link">Already have an account?  </a>
+                <a href="#" class="custom-bold">Login</a>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>

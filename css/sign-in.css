@@ -1,0 +1,279 @@
+/* button colour #8e0904 */
+/* text color #8e0903 */
+/* fonts 
+font-family: 'Nunito', sans-serif;
+font-family: 'Khula', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #3c4858;
+}
+
+.signup__container {
+    max-width: 70rem;
+    background-color: #fff;
+    margin: 8rem auto;
+    max-height: 80rem;
+}
+
+.signup-logo__container img {
+    width: 17rem;
+}
+
+.signup-heading__container {
+    min-height: 17rem;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.signup-heading__container p {
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+}
+
+.signup-heading__container h3 {
+    font-size: 2.8rem;
+    font-weight: inherit;
+    color: #3c4858;
+    margin-bottom: 0.8rem;
+}
+
+.text-muted {
+    color: #8492a6;
+}
+
+input::placeholder {
+    color: inherit;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: #8e0903;
+}
+
+label {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.password__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.signup-password__container {
+    width: 45%;
+}
+
+div.signup-confpassword__container {
+    width: 45%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 1.5rem 0 1.5rem 6rem;
+    border: 1px solid #e0e6ed;
+    border-radius: 0.8rem;
+    margin-top: 1.3rem;
+}
+
+svg {
+    fill: #8492a6;
+}
+
+.input-group-svg {
+    position: absolute;
+}
+
+.input-group-svg svg {
+    position: relative;
+    bottom: -2.8rem;
+    left: -68rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+input-group-svg__password {
+    position: absolute;
+}
+
+.input-group-svg__password svg {
+    position: relative;
+    top: -3.6rem;
+    right: -2rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+.signup-form__label {
+    color: #3C4858;
+    margin-bottom: 5rem;
+}
+
+input[type="checkbox"] {
+    margin-right: 2.5rem;
+}
+
+.terms-item {
+    margin-bottom: 1rem;
+}
+
+.terms-and-policy__contaner {
+    margin-bottom: 3rem;
+}
+
+button {
+    border: 0;
+    outline: none;
+    background-color: #8e0904;
+    color: #fff;
+    width: 100%;
+    border-radius: 0.8rem;
+    font-size: 1.6rem;
+    height: 6rem;
+    cursor: pointer;
+}
+
+.signup-button__container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.8rem;
+}
+
+.login-link__container {
+    display: flex;
+    justify-content: center;
+}
+
+input:focus {
+    border: 0;
+    outline: 0;
+    box-shadow: 0 0 5px #8e0904 inset;
+    transition: all ease-in-out .4s;
+}
+
+@media screen and (max-width: 690px) {
+    .input-group-svg {
+        position: absolute;
+    }
+
+    .input-group-svg svg {
+        position: relative;
+        bottom: -2.8rem;
+        left: -64rem;
+        width: 2rem;
+        height: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 647px) {
+    .input-group-svg {
+        position: absolute;
+    }
+
+    .input-group-svg svg {
+        position: relative;
+        bottom: -2.8rem;
+        left: -61rem;
+        width: 2rem;
+        height: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+    .signup__container {
+        padding: 2rem;
+
+    }
+
+    .input-group-svg {
+        position: absolute;
+    }
+
+    .input-group-svg svg {
+        position: relative;
+        bottom: -2.6rem;
+        left: -36rem;
+        width: 2rem;
+        height: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .input-group-svg {
+        position: absolute;
+    }
+
+    .input-group-svg svg {
+        position: relative;
+        bottom: -2.6rem;
+        left: -32rem;
+        width: 2rem;
+        height: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .input-group-svg {
+        position: absolute;
+    }
+
+    .input-group-svg svg {
+        position: relative;
+        bottom: -2.8rem;
+        left: -26rem;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .password__container {
+        flex-direction: column;
+    }
+
+    div.signup-password__container {
+        width: 100%;
+    }
+
+    div.signup-confpassword__container {
+        width: 100%;
+    }
+}
